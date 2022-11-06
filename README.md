@@ -1,10 +1,11 @@
-# Frontend Mentor - News homepage
+# Frontend Mentor - News homepage - 
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
+[News Homepage](https://maskedup559.github.io/news-homepage-main-1/)
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
