@@ -1,0 +1,29 @@
+/* main containers */ 
+.main-grid { 
+display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    margin: 3rem 2rem;
+}
+
+/* header and navbar layout and positioning */ 
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+} 
+
+header nav ul {
+    display: flex; 
+}
+
+/* cards layout */ 
+.cards {
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+} 
+.cards img {
+    grid-column: span 1;
+} 
+.cards div{
+    grid-column: span 2;
+}

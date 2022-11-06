@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+ 
+html {
+    font-size: 62.5%; 
+    /*1.6rem = 16px*/
+}  
+:root {
+	--soft-orange: hwb(35 33% 9%); 
+    --soft-red: hsl(5, 85%, 63%); 
+    --off-white: hsl(36, 100%, 99%); 
+    --grayish-blue: hsl(233, 8%, 79%); 
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+}
+body {
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif; 
+    background-color: var(--off-white);
+} 
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;  
+}
+img { 
+    width: 100%;
+} 
+
+/* header and nav styling */   
+header {
+    padding: 1.5rem 0;
+}
+header img {
+    width: 5rem;
+} 
+nav ul li a {
+    color: var(--very-dark-blue); 
+    margin-left: 2.5rem; 
+    font-size: 1.5rem;
+}  
+nav ul li a:hover {
+    color: var(--soft-red);
+}
+
+/* Main Picture and Read More Article */ 
+.showbox div h2 {
+    color: var(--very-dark-blue); 
+    line-height: 1;
+    font-weight: 800; 
+    font-size: 6rem;
+} 
+
+.showbox p {
+    color: var(--dark-grayish-blue);
+    font-weight: 400; 
+    font-size: 1.6rem; 
+    line-height: 1.4;
+} 
+.showbox button {  
+    cursor: pointer;
+    background-color: var(--soft-red); 
+    border: none; 
+    color: var(--off-white); 
+    padding: 1.5rem 2rem; 
+    font-size: 1.7rem; 
+    letter-spacing: 0.5rem; 
+    margin-bottom: 0;
+}  
+.showbox button:hover {
+    background-color: var(--very-dark-blue);
+}
+
+/* New Section */  
+.new-container {
+    margin: 2rem;
+}
+.new-container article {
+    margin-bottom: 2rem; 
+    border-bottom: 1px var(--dark-grayish-blue) solid;
+} 
+.new-container article:last-child {
+    border: none;
+} 
+
+.new-showcase {
+    background-color: var(--very-dark-blue);
+}
+.new-showcase h3 {
+    color: var(--soft-orange);
+    font-size: 4rem; 
+}
+.new-showcase h4{
+    color: var(--off-white); 
+    font-size: 2rem; 
+    margin-bottom: 1rem; 
+    cursor: pointer;
+} 
+.new-showcase h4:hover {
+    color: var(--soft-orange);
+} 
+.new-showcase article p {
+    color: var(--grayish-blue); 
+    padding-bottom: 3rem; 
+    line-height: 2;
+} 
+
+/* Bottom Cards */ 
+.cards span {
+    font-size: 3.3rem; 
+    font-weight: 800;
+    color: var(--grayish-blue)
+}  
+.cards h5 { 
+    cursor: pointer;
+    color: var(--very-dark-blue); 
+    font-size: 1.8rem; 
+    font-weight: 600;
+    margin-top: 1rem;
+}  
+.cards h5:hover {
+    color: var(--soft-red);
+}
+
+.cards p {
+    color: var(--dark-grayish-blue);
+    margin-top: 1rem; 
+    line-height: 1.8;
+}
+.cards div {
+    margin-left: 2.5rem;
+}
