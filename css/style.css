@@ -87,7 +87,7 @@ nav ul li a:hover {
 .new-showcase {
     background-color: var(--very-dark-blue);
 }
-.new-showcase h3 {
+.new-showcase h2 {
     color: var(--soft-orange);
     font-size: 4rem; 
 }
