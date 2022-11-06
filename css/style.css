@@ -30,15 +30,15 @@ img {
 
 /* header and nav styling */   
 header {
-    padding: 1.5rem 0;
+    padding: 2.5rem 0;
 }
 header img {
-    width: 5.6rem;
+    width: 6rem;
 } 
 nav ul li a {
-    color: var(--very-dark-blue); 
-    margin-left: 2.5rem; 
-    font-size: 1.5rem;
+    color: var(--dark-grayish-blue); 
+    margin-left: 3.5rem; 
+    font-size: 1.7rem; 
 }  
 nav ul li a:hover {
     color: var(--soft-red);
