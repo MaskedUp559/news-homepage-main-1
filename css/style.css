@@ -91,13 +91,13 @@ nav ul li a:hover {
     color: var(--soft-orange);
     font-size: 4rem; 
 }
-.new-showcase h4{
+.new-showcase h3{
     color: var(--off-white); 
     font-size: 2rem; 
     margin-bottom: 1rem; 
     cursor: pointer;
 } 
-.new-showcase h4:hover {
+.new-showcase h3:hover {
     color: var(--soft-orange);
 } 
 .new-showcase article p {
@@ -112,14 +112,14 @@ nav ul li a:hover {
     font-weight: 800;
     color: var(--grayish-blue)
 }  
-.cards h5 { 
+.cards h4 { 
     cursor: pointer;
     color: var(--very-dark-blue); 
     font-size: 1.8rem; 
     font-weight: 600;
     margin-top: 1rem;
 }  
-.cards h5:hover {
+.cards h4:hover {
     color: var(--soft-red);
 }
 
