@@ -99,10 +99,10 @@
     }  
     .showbox {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr); 
     } 
     .cards-section {
-        grid-column: span 2;
+        grid-column: span 3;
     }  
     .attribution {
         grid-column: span 3;
@@ -155,7 +155,7 @@
         display: none;
     }  
     /* styling changes */ 
-    h2 {
+    h1 {
         font-size: 10rem;
     } 
     .showbox button {
@@ -209,7 +209,7 @@
         display: none;
     } 
       /* styling changes */ 
-      h2 {
+      h1 {
         font-size: 10rem;
     } 
     .showbox button {
@@ -264,7 +264,7 @@
         display: none;
     } 
       /* styling changes */ 
-      h2 {
+      h1 {
         font-size: 10rem;
     }
     /* grid item layouts */  

@@ -45,7 +45,7 @@ nav ul li a:hover {
 }
 
 /* Main Picture and Read More Article */ 
-.showbox div h2 {
+.showbox div h1 {
     color: var(--very-dark-blue); 
     line-height: 1;
     font-weight: 800; 
