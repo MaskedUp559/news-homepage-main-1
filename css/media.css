@@ -22,7 +22,8 @@
     nav ul li a { 
         color: var(--very-dark-blue);
     }
-    .close { 
+    .close {  
+        cursor: pointer;
         display: none;
         position: absolute; 
         right: 0; 
