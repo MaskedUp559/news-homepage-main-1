@@ -5,7 +5,7 @@
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
-[News Homepage](https://maskedup559.github.io/news-homepage-main-1/)
+[News Homepage](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub)
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
